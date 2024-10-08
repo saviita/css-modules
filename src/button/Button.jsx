@@ -1,4 +1,4 @@
-const Button = ({children}) => {
-    return <button>{children}</button>
+const Button = () => {
+    return <button>Click Me</button>
 };
 export default Button;
