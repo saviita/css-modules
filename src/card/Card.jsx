@@ -9,4 +9,4 @@ return <div>
     <button>Learn more</button>
 </div>
 }
-export default Card
+export default Card;

@@ -5,4 +5,30 @@
 }
 
 .text {
+  font-size: 15pt;
+  color: #FFFFFF;
+}
+
+.sedans {
+  background-color: #E28625;
+}
+
+.suvs {
+  background-color: #006971;
+}
+
+.luxury {
+  background-color: #004140;
+}
+
+.button__sedans {
+  color: #E28625;
+}
+
+.button__suvs {
+  color: #006971;
+}
+
+.button__luxury {
+  color: #004140;
 }
