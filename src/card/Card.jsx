@@ -1,12 +1,12 @@
 import styles from './card.module.css';
 
 console.log('styles')
-const Card = ({title, text, img}) => {
-return <div className={title}>
+const Card = ({children, title, text, img}) => {
+return <div className={styles.card}>
     <img src={img} alt="" />
-    <h1 className={'${}'}>{title}</h1>
+    <h1 className={styles.title}>{children}</h1>
     <p className={styles.text}>{text}</p>
-    <button>Learn more</button>
+    <button className={styles.button}>Learn More</button>
 </div>
 }
 export default Card;

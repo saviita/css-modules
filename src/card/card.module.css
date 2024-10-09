@@ -1,12 +1,30 @@
-.title--h1 {
+
+.icon {
+  margin-bottom: 37px;
+}
+
+.title {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 400;
   font-size: 40pt;
   font-weight: bold;
   color: #f2f2f2;
+  margin-bottom: 25px;
 }
 
 .text {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
   font-size: 15pt;
   color: #FFFFFF;
+  margin-bottom: 83px;
+}
+
+.card {
+  width: 307px;
+  height: 500px;
+  padding: 47.5px;
+  background-color: #E28625;
 }
 
 .sedans {
@@ -21,14 +39,35 @@
   background-color: #004140;
 }
 
-.button__sedans {
+.button {
+  background-color: #F2F2F2;
   color: #E28625;
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
+  border: none;
+}
+
+.button__sedans {
+  background-color: #F2F2F2;
+  color: #E28625;
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
 }
 
 .button__suvs {
+  background-color: #F2F2F2;
   color: #006971;
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
 }
 
 .button__luxury {
+  background-color: #F2F2F2;
   color: #004140;
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
 }
