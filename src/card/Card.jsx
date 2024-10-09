@@ -1,11 +1,11 @@
-import styles from './card.modules.css';
+import styles from './card.module.css';
 
+console.log('styles')
 const Card = ({title, text, img}) => {
-
-return <div>
+return <div className={title}>
     <img src={img} alt="" />
     <h1 className={'${}'}>{title}</h1>
-    <p>{text}</p>
+    <p className={styles.text}>{text}</p>
     <button>Learn more</button>
 </div>
 }
